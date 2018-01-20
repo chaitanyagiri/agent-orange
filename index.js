@@ -6,7 +6,7 @@ path          = require('path');
 app.use(express.static(path.join(__dirname, 'server/static')));
 app.use(express.static(path.join(__dirname, 'client/dist')));
 
-
-app.listen(process.env.PORT || 3100, process.env.IP, () => {
-  console.log(`The server is running on ${process.env.PORT}`)
+var PORT = process.env.PORT || 3100;
+app.listen(PORT, process.env.IP, () => {
+  console.log(`The server is running on ${PORT}`);
 })
