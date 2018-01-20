@@ -1,0 +1,19 @@
+{
+  "name": "PharmoMaps",
+  "version": "1.0.0",
+  "description": "A MERN stack project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "SPA"
+  ],
+  "author": "Abialbon Paul",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
